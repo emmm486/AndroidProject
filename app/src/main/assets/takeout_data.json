@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "city": "湘潭市",
+    "district": "雨湖区",
+    "currency": "CNY",
+    "generated_at": "2026-10-19T14:17:00+08:00",
+    "note": "演示用外卖数据，字段按截图界面整理；正式上线请替换为已核验的商家资质与真实在售餐品。",
+    "restaurant_count": 15,
+    "dish_count": 120
+  },
+  "categories": [
+    "美食",
+    "汉堡披萨",
+    "奶茶饮品",
+    "轻食沙拉",
+    "甜品蛋糕"
+  ],
+  "restaurants": [
+    {
+      "id": "r001",
+      "name": "张记黄焖鸡米饭",
+      "category": "美食",
+      "rating": 4.8,
+      "monthly_sales": 2000,
+      "min_order": 20.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 30,
+      "distance_km": 1.2,
+      "address": "湘潭市雨湖区建设北路与韶山东路交叉口附近",
+      "phone": "0731-5820-1001",
+      "announcement": "黄焖鸡现焖现卖，辣度可选，米饭可免费续一份。",
+      "menu": [
+        {
+          "name": "黄焖鸡米饭（大份）",
+          "price": 22.0,
+          "monthly_sales": 860,
+          "tags": [
+            "招牌",
+            "热卖"
+          ],
+          "desc": "鸡腿肉焖制，配香菇、土豆、青椒，酱香浓郁。"
+        },
+        {
+          "name": "黄焖鸡米饭（小份）",
+          "price": 16.0,
+          "monthly_sales": 520,
+          "tags": [
+            "实惠"
+          ],
+          "desc": "小份黄焖鸡配米饭，适合一人轻食。"
+        },
+        {
+          "name": "鱼香肉丝盖饭",
+          "price": 18.8,
+          "monthly_sales": 310,
+          "tags": [
+            "川味"
+          ],
+          "desc": "猪肉丝配木耳胡萝卜丝，鱼香口味。"
+        },
+        {
+          "name": "酸辣土豆丝",
+          "price": 12.0,
+          "monthly_sales": 240,
+          "tags": [
+            "素菜"
+          ],
+          "desc": "家常酸辣口，脆嫩下饭。"
+        },
+        {
+          "name": "可乐（冰）",
+          "price": 5.0,
+          "monthly_sales": 190,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "330ml 冰镇可乐。"
+        },
+        {
+          "name": "紫菜蛋花汤",
+          "price": 8.0,
+          "monthly_sales": 160,
+          "tags": [
+            "汤品"
+          ],
+          "desc": "紫菜蛋花汤，清淡解腻。"
+        },
+        {
+          "name": "黄焖排骨米饭",
+          "price": 24.0,
+          "monthly_sales": 145,
+          "tags": [
+            "新品"
+          ],
+          "desc": "排骨软烂入味，配时蔬。"
+        },
+        {
+          "name": "卤蛋",
+          "price": 3.0,
+          "monthly_sales": 220,
+          "tags": [
+            "加料"
+          ],
+          "desc": "入味卤蛋一颗。"
+        }
+      ]
+    },
+    {
+      "id": "r002",
+      "name": "川香居麻辣烫",
+      "category": "美食",
+      "rating": 4.7,
+      "monthly_sales": 1800,
+      "min_order": 18.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 32,
+      "distance_km": 1.5,
+      "address": "湘潭市雨湖区民主路步步高广场后侧",
+      "phone": "0731-5820-1002",
+      "announcement": "自选称重，汤底可选微辣/中辣/特辣，默认不辣请备注。",
+      "menu": [
+        {
+          "name": "经典骨汤麻辣烫（自选）",
+          "price": 25.8,
+          "monthly_sales": 700,
+          "tags": [
+            "招牌",
+            "自选"
+          ],
+          "desc": "骨汤打底，荤素同价称重。"
+        },
+        {
+          "name": "麻辣牛肉冒菜单人餐",
+          "price": 28.0,
+          "monthly_sales": 430,
+          "tags": [
+            "川味"
+          ],
+          "desc": "牛肉、毛肚、宽粉、时蔬搭配。"
+        },
+        {
+          "name": "酸辣粉",
+          "price": 13.0,
+          "monthly_sales": 360,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "红薯粉配花生、黄豆、酸豆角。"
+        },
+        {
+          "name": "红糖糍粑",
+          "price": 10.0,
+          "monthly_sales": 260,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "外脆内糯，淋红糖浆。"
+        },
+        {
+          "name": "冰镇酸梅汤",
+          "price": 6.0,
+          "monthly_sales": 300,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "乌梅山楂熬煮，解辣解腻。"
+        },
+        {
+          "name": "午餐肉（加料）",
+          "price": 5.0,
+          "monthly_sales": 210,
+          "tags": [
+            "加料"
+          ],
+          "desc": "厚切午餐肉两份。"
+        },
+        {
+          "name": "炸酥肉",
+          "price": 16.0,
+          "monthly_sales": 190,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "现炸小酥肉，撒椒盐。"
+        },
+        {
+          "name": "米饭",
+          "price": 2.0,
+          "monthly_sales": 500,
+          "tags": [
+            "主食"
+          ],
+          "desc": "东北大米一份。"
+        }
+      ]
+    },
+    {
+      "id": "r003",
+      "name": "麦乐汉堡",
+      "category": "汉堡披萨",
+      "rating": 4.8,
+      "monthly_sales": 2000,
+      "min_order": 20.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 30,
+      "distance_km": 0.9,
+      "address": "湘潭市雨湖区潭城大厦一层商铺",
+      "phone": "0731-5820-1003",
+      "announcement": "炸鸡现裹现炸，套餐默认可乐，可换无糖可乐或热饮。",
+      "menu": [
+        {
+          "name": "麦香鸡腿堡套餐",
+          "price": 29.9,
+          "monthly_sales": 820,
+          "tags": [
+            "招牌",
+            "套餐"
+          ],
+          "desc": "鸡腿堡+中薯+中杯可乐。"
+        },
+        {
+          "name": "双层牛肉堡",
+          "price": 26.0,
+          "monthly_sales": 470,
+          "tags": [
+            "牛肉"
+          ],
+          "desc": "双层牛肉饼配芝士、酸黄瓜。"
+        },
+        {
+          "name": "香辣鸡翅（4块）",
+          "price": 19.9,
+          "monthly_sales": 560,
+          "tags": [
+            "小食"
+          ],
+          "desc": "辣翅四块，金黄酥脆。"
+        },
+        {
+          "name": "黄金鸡块（5块）",
+          "price": 15.0,
+          "monthly_sales": 410,
+          "tags": [
+            "小食"
+          ],
+          "desc": "鸡块配甜酸酱。"
+        },
+        {
+          "name": "至尊披萨9英寸",
+          "price": 39.9,
+          "monthly_sales": 260,
+          "tags": [
+            "披萨"
+          ],
+          "desc": "培根、香肠、彩椒、洋葱。"
+        },
+        {
+          "name": "薯条（大）",
+          "price": 12.0,
+          "monthly_sales": 530,
+          "tags": [
+            "小食"
+          ],
+          "desc": "大份薯条，可选番茄酱。"
+        },
+        {
+          "name": "可乐（冰）",
+          "price": 5.0,
+          "monthly_sales": 640,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "中杯冰镇可乐。"
+        },
+        {
+          "name": "圣代（草莓）",
+          "price": 9.0,
+          "monthly_sales": 230,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "草莓酱圣代一杯。"
+        }
+      ]
+    },
+    {
+      "id": "r004",
+      "name": "茶百道奶茶",
+      "category": "奶茶饮品",
+      "rating": 4.8,
+      "monthly_sales": 2000,
+      "min_order": 15.0,
+      "delivery_fee": 2.0,
+      "delivery_time_min": 25,
+      "distance_km": 0.8,
+      "address": "湘潭市雨湖区建设路口商圈",
+      "phone": "0731-5820-1004",
+      "announcement": "默认去冰三分糖，珍珠/椰果免费二选一。",
+      "menu": [
+        {
+          "name": "招牌芋圆奶茶（中杯）",
+          "price": 14.0,
+          "monthly_sales": 980,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "红茶底配芋圆，奶香顺滑。"
+        },
+        {
+          "name": "茉莉奶绿（大杯）",
+          "price": 16.0,
+          "monthly_sales": 720,
+          "tags": [
+            "清爽"
+          ],
+          "desc": "茉莉绿茶配鲜奶。"
+        },
+        {
+          "name": "珍珠奶茶（大杯）",
+          "price": 13.0,
+          "monthly_sales": 690,
+          "tags": [
+            "经典"
+          ],
+          "desc": "黑糖珍珠，红茶鲜奶。"
+        },
+        {
+          "name": "杨枝甘露",
+          "price": 18.0,
+          "monthly_sales": 450,
+          "tags": [
+            "果饮"
+          ],
+          "desc": "芒果、西柚、椰奶、西米。"
+        },
+        {
+          "name": "西瓜啵啵冰（大杯）",
+          "price": 15.0,
+          "monthly_sales": 380,
+          "tags": [
+            "时令"
+          ],
+          "desc": "鲜榨西瓜汁配脆啵啵。"
+        },
+        {
+          "name": "芝士葡萄（大杯）",
+          "price": 19.0,
+          "monthly_sales": 330,
+          "tags": [
+            "奶盖"
+          ],
+          "desc": "葡萄果肉配咸香奶盖。"
+        },
+        {
+          "name": "脆啵啵（加料）",
+          "price": 2.0,
+          "monthly_sales": 410,
+          "tags": [
+            "加料"
+          ],
+          "desc": "寒天脆啵啵一份。"
+        },
+        {
+          "name": "奥利奥奶茶（中杯）",
+          "price": 16.0,
+          "monthly_sales": 290,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "奶茶顶部撒奥利奥碎。"
+        }
+      ]
+    },
+    {
+      "id": "r005",
+      "name": "轻食主义沙拉",
+      "category": "轻食沙拉",
+      "rating": 4.6,
+      "monthly_sales": 1200,
+      "min_order": 20.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 30,
+      "distance_km": 1.0,
+      "address": "湘潭市雨湖区湖湘西路健身中心旁",
+      "phone": "0731-5820-1005",
+      "announcement": "沙拉默认酱汁分装，鸡胸肉可换牛肉或虾仁。",
+      "menu": [
+        {
+          "name": "鸡胸牛油果沙拉",
+          "price": 32.0,
+          "monthly_sales": 320,
+          "tags": [
+            "招牌",
+            "低脂"
+          ],
+          "desc": "鸡胸肉、牛油果、圣女果、生菜。"
+        },
+        {
+          "name": "牛肉能量沙拉",
+          "price": 36.0,
+          "monthly_sales": 210,
+          "tags": [
+            "高蛋白"
+          ],
+          "desc": "煎牛肉、鸡蛋、鹰嘴豆、混合生菜。"
+        },
+        {
+          "name": "虾仁藜麦沙拉",
+          "price": 34.0,
+          "monthly_sales": 180,
+          "tags": [
+            "轻食"
+          ],
+          "desc": "虾仁、藜麦、南瓜、玉米。"
+        },
+        {
+          "name": "金枪鱼三明治",
+          "price": 22.0,
+          "monthly_sales": 260,
+          "tags": [
+            "主食"
+          ],
+          "desc": "全麦面包配金枪鱼玉米。"
+        },
+        {
+          "name": "紫薯泥酸奶碗",
+          "price": 24.0,
+          "monthly_sales": 150,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "紫薯泥、无糖酸奶、燕麦、蓝莓。"
+        },
+        {
+          "name": "鲜榨橙汁",
+          "price": 12.0,
+          "monthly_sales": 220,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "现榨橙汁一杯。"
+        },
+        {
+          "name": "美式咖啡（热）",
+          "price": 14.0,
+          "monthly_sales": 140,
+          "tags": [
+            "咖啡"
+          ],
+          "desc": "中杯热美式。"
+        },
+        {
+          "name": "酱汁分装",
+          "price": 0.0,
+          "monthly_sales": 0,
+          "tags": [
+            "服务"
+          ],
+          "desc": "油醋汁/凯撒酱/芝麻酱分装。"
+        }
+      ]
+    },
+    {
+      "id": "r006",
+      "name": "甜心烘焙蛋糕",
+      "category": "甜品蛋糕",
+      "rating": 4.9,
+      "monthly_sales": 900,
+      "min_order": 25.0,
+      "delivery_fee": 4.0,
+      "delivery_time_min": 35,
+      "distance_km": 1.8,
+      "address": "湘潭市雨湖区车站路甜品街12号",
+      "phone": "0731-5820-1006",
+      "announcement": "蛋糕需提前2小时预订，生日牌可备注文字。",
+      "menu": [
+        {
+          "name": "黑森林蛋糕切片",
+          "price": 22.0,
+          "monthly_sales": 210,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "巧克力戚风配樱桃酱。"
+        },
+        {
+          "name": "榴莲千层切片",
+          "price": 28.0,
+          "monthly_sales": 180,
+          "tags": [
+            "榴莲"
+          ],
+          "desc": "猫山王榴莲果肉千层。"
+        },
+        {
+          "name": "提拉米苏盒装",
+          "price": 24.0,
+          "monthly_sales": 160,
+          "tags": [
+            "经典"
+          ],
+          "desc": "马斯卡彭奶酪咖啡酒香。"
+        },
+        {
+          "name": "草莓奶油蛋糕6英寸",
+          "price": 88.0,
+          "monthly_sales": 90,
+          "tags": [
+            "预订"
+          ],
+          "desc": "新鲜草莓动物奶油蛋糕。"
+        },
+        {
+          "name": "芒果慕斯杯",
+          "price": 16.0,
+          "monthly_sales": 230,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "芒果慕斯配淡奶油。"
+        },
+        {
+          "name": "蛋挞（2枚）",
+          "price": 10.0,
+          "monthly_sales": 320,
+          "tags": [
+            "现烤"
+          ],
+          "desc": "现烤葡式蛋挞两枚。"
+        },
+        {
+          "name": "黄油曲奇（盒）",
+          "price": 26.0,
+          "monthly_sales": 120,
+          "tags": [
+            "伴手礼"
+          ],
+          "desc": "黄油曲奇铁盒装。"
+        },
+        {
+          "name": "燕麦拿铁",
+          "price": 16.0,
+          "monthly_sales": 150,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "燕麦奶拿铁，可选冷热。"
+        }
+      ]
+    },
+    {
+      "id": "r007",
+      "name": "阿公炒饭·深夜食堂",
+      "category": "美食",
+      "rating": 4.5,
+      "monthly_sales": 1600,
+      "min_order": 15.0,
+      "delivery_fee": 2.5,
+      "delivery_time_min": 28,
+      "distance_km": 1.1,
+      "address": "湘潭市雨湖区韶山中路夜市口",
+      "phone": "0731-5820-1007",
+      "announcement": "夜宵时段至凌晨1点，默认微辣，可备注加蛋加辣。",
+      "menu": [
+        {
+          "name": "扬州炒饭",
+          "price": 16.0,
+          "monthly_sales": 520,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "火腿、虾仁、鸡蛋、青豆。"
+        },
+        {
+          "name": "牛肉炒饭",
+          "price": 20.0,
+          "monthly_sales": 460,
+          "tags": [
+            "热卖"
+          ],
+          "desc": "卤牛肉粒大火快炒。"
+        },
+        {
+          "name": "老干妈腊肠炒饭",
+          "price": 18.0,
+          "monthly_sales": 390,
+          "tags": [
+            "重口"
+          ],
+          "desc": "腊肠配老干妈，锅气足。"
+        },
+        {
+          "name": "鸡蛋炒粉",
+          "price": 13.0,
+          "monthly_sales": 350,
+          "tags": [
+            "粉面"
+          ],
+          "desc": "河粉鸡蛋豆芽炒粉。"
+        },
+        {
+          "name": "炒时蔬",
+          "price": 12.0,
+          "monthly_sales": 180,
+          "tags": [
+            "素菜"
+          ],
+          "desc": "当季绿叶菜蒜蓉炒。"
+        },
+        {
+          "name": "卤鸡腿",
+          "price": 9.0,
+          "monthly_sales": 260,
+          "tags": [
+            "加料"
+          ],
+          "desc": "老卤鸡腿一只。"
+        },
+        {
+          "name": "紫菜蛋花汤",
+          "price": 6.0,
+          "monthly_sales": 210,
+          "tags": [
+            "汤品"
+          ],
+          "desc": "例汤一份。"
+        },
+        {
+          "name": "冰峰汽水",
+          "price": 4.0,
+          "monthly_sales": 170,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "陕西风味橙味汽水。"
+        }
+      ]
+    },
+    {
+      "id": "r008",
+      "name": "云味过桥米线",
+      "category": "美食",
+      "rating": 4.7,
+      "monthly_sales": 1400,
+      "min_order": 18.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 31,
+      "distance_km": 1.6,
+      "address": "湘潭市雨湖区雨湖路商业步行街",
+      "phone": "0731-5820-1008",
+      "announcement": "米线与汤分装配送，收到后请尽快倒入保温汤中。",
+      "menu": [
+        {
+          "name": "状元过桥米线",
+          "price": 26.0,
+          "monthly_sales": 410,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "高汤现烫，配鹌鹑蛋、肉片、时蔬。"
+        },
+        {
+          "name": "酸辣肥牛米线",
+          "price": 24.0,
+          "monthly_sales": 330,
+          "tags": [
+            "酸辣"
+          ],
+          "desc": "肥牛配酸菜与小米辣。"
+        },
+        {
+          "name": "番茄酥肉米线",
+          "price": 22.0,
+          "monthly_sales": 280,
+          "tags": [
+            "番茄"
+          ],
+          "desc": "番茄浓汤配小酥肉。"
+        },
+        {
+          "name": "菌菇素米线",
+          "price": 18.0,
+          "monthly_sales": 190,
+          "tags": [
+            "素食"
+          ],
+          "desc": "多种菌菇与豆腐皮。"
+        },
+        {
+          "name": "汽锅鸡汤（小份）",
+          "price": 16.0,
+          "monthly_sales": 150,
+          "tags": [
+            "汤品"
+          ],
+          "desc": "汽锅慢炖鸡汤。"
+        },
+        {
+          "name": "玫瑰鲜花饼",
+          "price": 8.0,
+          "monthly_sales": 170,
+          "tags": [
+            "点心"
+          ],
+          "desc": "云南风味鲜花饼。"
+        },
+        {
+          "name": "炸包浆豆腐",
+          "price": 12.0,
+          "monthly_sales": 220,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "外脆里嫩，配蘸水。"
+        },
+        {
+          "name": "酸角汁",
+          "price": 7.0,
+          "monthly_sales": 130,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "酸甜开胃酸角汁。"
+        }
+      ]
+    },
+    {
+      "id": "r009",
+      "name": "湘辣小炒·家味馆",
+      "category": "美食",
+      "rating": 4.6,
+      "monthly_sales": 1500,
+      "min_order": 25.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 35,
+      "distance_km": 2.0,
+      "address": "湘潭市雨湖区护潭广场对面",
+      "phone": "0731-5820-1009",
+      "announcement": "小炒菜现点现炒，辣度可选；米饭按人头配。",
+      "menu": [
+        {
+          "name": "辣椒炒肉",
+          "price": 28.0,
+          "monthly_sales": 560,
+          "tags": [
+            "招牌",
+            "湘菜"
+          ],
+          "desc": "本地青椒炒五花肉。"
+        },
+        {
+          "name": "剁椒鱼头（半只）",
+          "price": 48.0,
+          "monthly_sales": 220,
+          "tags": [
+            "湘菜"
+          ],
+          "desc": "剁椒蒸鱼头半只，配面。"
+        },
+        {
+          "name": "农家一碗香",
+          "price": 26.0,
+          "monthly_sales": 380,
+          "tags": [
+            "下饭"
+          ],
+          "desc": "鸡蛋、青椒、五花肉同炒。"
+        },
+        {
+          "name": "香辣跳跳蛙",
+          "price": 42.0,
+          "monthly_sales": 180,
+          "tags": [
+            "重口"
+          ],
+          "desc": "牛蛙配紫苏、小米辣。"
+        },
+        {
+          "name": "清炒时蔬",
+          "price": 16.0,
+          "monthly_sales": 200,
+          "tags": [
+            "素菜"
+          ],
+          "desc": "当季时蔬。"
+        },
+        {
+          "name": "酸辣鸡杂",
+          "price": 24.0,
+          "monthly_sales": 310,
+          "tags": [
+            "下饭"
+          ],
+          "desc": "鸡杂配酸豆角爆炒。"
+        },
+        {
+          "name": "米饭",
+          "price": 2.0,
+          "monthly_sales": 800,
+          "tags": [
+            "主食"
+          ],
+          "desc": "按份计费。"
+        },
+        {
+          "name": "绿豆汤",
+          "price": 5.0,
+          "monthly_sales": 260,
+          "tags": [
+            "汤品"
+          ],
+          "desc": "冰镇绿豆汤。"
+        }
+      ]
+    },
+    {
+      "id": "r010",
+      "name": "泰小椰东南亚餐",
+      "category": "美食",
+      "rating": 4.7,
+      "monthly_sales": 800,
+      "min_order": 30.0,
+      "delivery_fee": 4.0,
+      "delivery_time_min": 40,
+      "distance_km": 2.3,
+      "address": "湘潭市雨湖区沿江风光带入口",
+      "phone": "0731-5820-1010",
+      "announcement": "咖喱与饭分装，香茅柠檬茶默认少冰。",
+      "menu": [
+        {
+          "name": "泰式黄咖喱鸡饭",
+          "price": 34.0,
+          "monthly_sales": 240,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "黄咖喱配土豆胡萝卜鸡肉。"
+        },
+        {
+          "name": "冬阴功汤（小份）",
+          "price": 28.0,
+          "monthly_sales": 170,
+          "tags": [
+            "汤"
+          ],
+          "desc": "虾、香茅、南姜、椰浆。"
+        },
+        {
+          "name": "芒果糯米饭",
+          "price": 22.0,
+          "monthly_sales": 200,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "芒果配椰浆糯米饭。"
+        },
+        {
+          "name": "泰式炒河粉",
+          "price": 26.0,
+          "monthly_sales": 150,
+          "tags": [
+            "粉面"
+          ],
+          "desc": "Pad Thai 风味，配花生碎。"
+        },
+        {
+          "name": "香茅烤鸡翅",
+          "price": 24.0,
+          "monthly_sales": 130,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "香茅腌制烤翅四只。"
+        },
+        {
+          "name": "青木瓜沙拉",
+          "price": 20.0,
+          "monthly_sales": 90,
+          "tags": [
+            "清爽"
+          ],
+          "desc": "青木瓜丝配鱼露柠檬汁。"
+        },
+        {
+          "name": "香茅柠檬茶",
+          "price": 14.0,
+          "monthly_sales": 180,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "香茅柠檬茶大杯。"
+        },
+        {
+          "name": "泰国虾片",
+          "price": 10.0,
+          "monthly_sales": 110,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "现炸虾片一份。"
+        }
+      ]
+    },
+    {
+      "id": "r011",
+      "name": "牛约堡·手作牛肉汉堡",
+      "category": "汉堡披萨",
+      "rating": 4.7,
+      "monthly_sales": 1100,
+      "min_order": 22.0,
+      "delivery_fee": 3.5,
+      "delivery_time_min": 34,
+      "distance_km": 1.4,
+      "address": "湘潭市雨湖区建设南路华隆步步高附近",
+      "phone": "0731-5820-1011",
+      "announcement": "牛肉饼现煎，默认七分熟；套餐薯条可换洋葱圈。",
+      "menu": [
+        {
+          "name": "经典芝士牛肉堡",
+          "price": 25.0,
+          "monthly_sales": 430,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "牛肉饼、芝士、番茄、生菜。"
+        },
+        {
+          "name": "培根芝士牛肉堡",
+          "price": 28.0,
+          "monthly_sales": 310,
+          "tags": [
+            "热卖"
+          ],
+          "desc": "牛肉饼配培根与双层芝士。"
+        },
+        {
+          "name": "鸡肉脆堡",
+          "price": 19.0,
+          "monthly_sales": 260,
+          "tags": [
+            "鸡肉"
+          ],
+          "desc": "酥脆鸡排配蛋黄酱。"
+        },
+        {
+          "name": "牛肉披萨10英寸",
+          "price": 42.0,
+          "monthly_sales": 140,
+          "tags": [
+            "披萨"
+          ],
+          "desc": "牛肉粒、洋葱、青椒、芝士。"
+        },
+        {
+          "name": "洋葱圈（大）",
+          "price": 14.0,
+          "monthly_sales": 190,
+          "tags": [
+            "小食"
+          ],
+          "desc": "金黄洋葱圈大份。"
+        },
+        {
+          "name": "芝士焗红薯",
+          "price": 12.0,
+          "monthly_sales": 120,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "红薯泥铺马苏里拉焗烤。"
+        },
+        {
+          "name": "柠檬可乐（冰）",
+          "price": 6.0,
+          "monthly_sales": 240,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "柠檬片冰镇可乐。"
+        },
+        {
+          "name": "额外芝士片",
+          "price": 3.0,
+          "monthly_sales": 150,
+          "tags": [
+            "加料"
+          ],
+          "desc": "汉堡加芝士一片。"
+        }
+      ]
+    },
+    {
+      "id": "r012",
+      "name": "果呀呀·鲜果茶",
+      "category": "奶茶饮品",
+      "rating": 4.8,
+      "monthly_sales": 1900,
+      "min_order": 14.0,
+      "delivery_fee": 2.0,
+      "delivery_time_min": 24,
+      "distance_km": 0.7,
+      "address": "湘潭市雨湖区中心车站地下商城口",
+      "phone": "0731-5820-1012",
+      "announcement": "鲜果现切，默认三分糖；需少冰/去冰请备注。",
+      "menu": [
+        {
+          "name": "招牌芒果甘露",
+          "price": 19.0,
+          "monthly_sales": 760,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "芒果、西柚、椰奶、脆啵啵。"
+        },
+        {
+          "name": "满杯百香果",
+          "price": 13.0,
+          "monthly_sales": 540,
+          "tags": [
+            "清爽"
+          ],
+          "desc": "百香果配青柠与绿茶。"
+        },
+        {
+          "name": "芝芝桃桃（大杯）",
+          "price": 18.0,
+          "monthly_sales": 430,
+          "tags": [
+            "奶盖"
+          ],
+          "desc": "水蜜桃果肉配芝士奶盖。"
+        },
+        {
+          "name": "多肉葡萄冻冻",
+          "price": 17.0,
+          "monthly_sales": 390,
+          "tags": [
+            "热卖"
+          ],
+          "desc": "葡萄汁配葡萄冻与脆啵啵。"
+        },
+        {
+          "name": "鲜橙雪梨汁",
+          "price": 15.0,
+          "monthly_sales": 260,
+          "tags": [
+            "果汁"
+          ],
+          "desc": "鲜橙雪梨现榨。"
+        },
+        {
+          "name": "抹茶拿铁（热）",
+          "price": 16.0,
+          "monthly_sales": 210,
+          "tags": [
+            "咖啡"
+          ],
+          "desc": "宇治抹茶配鲜奶。"
+        },
+        {
+          "name": "燕麦奶基底替换",
+          "price": 2.0,
+          "monthly_sales": 90,
+          "tags": [
+            "加料"
+          ],
+          "desc": "奶类饮品换燕麦奶。"
+        },
+        {
+          "name": "寒天晶球",
+          "price": 2.0,
+          "monthly_sales": 320,
+          "tags": [
+            "加料"
+          ],
+          "desc": "寒天晶球一份。"
+        }
+      ]
+    },
+    {
+      "id": "r013",
+      "name": "粉面江湖·常德米粉",
+      "category": "美食",
+      "rating": 4.6,
+      "monthly_sales": 1700,
+      "min_order": 16.0,
+      "delivery_fee": 2.5,
+      "delivery_time_min": 29,
+      "distance_km": 1.3,
+      "address": "湘潭市雨湖区熙春路米粉一条街",
+      "phone": "0731-5820-1013",
+      "announcement": "圆粉/扁粉可选，默认浇头分装；牛肉码子可加量。",
+      "menu": [
+        {
+          "name": "招牌红烧牛肉粉",
+          "price": 18.0,
+          "monthly_sales": 620,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "红烧牛肉码配常德米粉。"
+        },
+        {
+          "name": "麻辣牛肉粉",
+          "price": 20.0,
+          "monthly_sales": 480,
+          "tags": [
+            "湘味"
+          ],
+          "desc": "麻辣牛肉浇头，红油香。"
+        },
+        {
+          "name": "肉丝木耳粉",
+          "price": 14.0,
+          "monthly_sales": 350,
+          "tags": [
+            "家常"
+          ],
+          "desc": "肉丝木耳浇头，清淡可选。"
+        },
+        {
+          "name": "三鲜粉",
+          "price": 16.0,
+          "monthly_sales": 300,
+          "tags": [
+            "汤粉"
+          ],
+          "desc": "猪肝、瘦肉、小肠三鲜。"
+        },
+        {
+          "name": "卤香干",
+          "price": 5.0,
+          "monthly_sales": 260,
+          "tags": [
+            "小吃"
+          ],
+          "desc": "卤香干两片。"
+        },
+        {
+          "name": "虎皮鸡蛋",
+          "price": 4.0,
+          "monthly_sales": 330,
+          "tags": [
+            "加料"
+          ],
+          "desc": "虎皮蛋一只。"
+        },
+        {
+          "name": "酸豆角肉沫码",
+          "price": 8.0,
+          "monthly_sales": 180,
+          "tags": [
+            "加料"
+          ],
+          "desc": "酸豆角肉沫浇头一份。"
+        },
+        {
+          "name": "甜酒冲蛋",
+          "price": 8.0,
+          "monthly_sales": 150,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "甜酒酿冲鸡蛋花。"
+        }
+      ]
+    },
+    {
+      "id": "r014",
+      "name": "绿野轻食碗",
+      "category": "轻食沙拉",
+      "rating": 4.5,
+      "monthly_sales": 700,
+      "min_order": 24.0,
+      "delivery_fee": 3.0,
+      "delivery_time_min": 32,
+      "distance_km": 1.9,
+      "address": "湘潭市雨湖区湖南科技大学北门商圈",
+      "phone": "0731-5820-1014",
+      "announcement": "支持半份双拼蛋白，酱料默认低脂油醋汁。",
+      "menu": [
+        {
+          "name": "低温鸡胸超级碗",
+          "price": 30.0,
+          "monthly_sales": 180,
+          "tags": [
+            "招牌",
+            "低脂"
+          ],
+          "desc": "低温鸡胸、糙米、玉米、鹰嘴豆。"
+        },
+        {
+          "name": "香煎三文鱼藜麦碗",
+          "price": 42.0,
+          "monthly_sales": 90,
+          "tags": [
+            "高蛋白"
+          ],
+          "desc": "三文鱼、藜麦、牛油果、溏心蛋。"
+        },
+        {
+          "name": "素食彩虹碗",
+          "price": 24.0,
+          "monthly_sales": 130,
+          "tags": [
+            "素食"
+          ],
+          "desc": "烤南瓜、甜菜根、豆腐、混合生菜。"
+        },
+        {
+          "name": "黑椒牛肉意面沙拉",
+          "price": 32.0,
+          "monthly_sales": 120,
+          "tags": [
+            "主食"
+          ],
+          "desc": "黑椒牛肉配全麦意面。"
+        },
+        {
+          "name": "酸奶坚果杯",
+          "price": 18.0,
+          "monthly_sales": 110,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "无糖酸奶、坚果、燕麦、蜂蜜。"
+        },
+        {
+          "name": "羽衣甘蓝青汁",
+          "price": 15.0,
+          "monthly_sales": 100,
+          "tags": [
+            "饮品"
+          ],
+          "desc": "羽衣甘蓝、苹果、黄瓜冷压。"
+        },
+        {
+          "name": "水煮蛋（加料）",
+          "price": 3.0,
+          "monthly_sales": 160,
+          "tags": [
+            "加料"
+          ],
+          "desc": "水煮蛋一枚。"
+        },
+        {
+          "name": "牛油果半份",
+          "price": 8.0,
+          "monthly_sales": 70,
+          "tags": [
+            "加料"
+          ],
+          "desc": "新鲜牛油果半只。"
+        }
+      ]
+    },
+    {
+      "id": "r015",
+      "name": "糖叙·手作糖水",
+      "category": "甜品蛋糕",
+      "rating": 4.8,
+      "monthly_sales": 1000,
+      "min_order": 18.0,
+      "delivery_fee": 2.5,
+      "delivery_time_min": 26,
+      "distance_km": 1.0,
+      "address": "湘潭市雨湖区大湖路糖水铺集聚区",
+      "phone": "0731-5820-1015",
+      "announcement": "糖水冷热可选，桃胶/雪燕当日现炖。",
+      "menu": [
+        {
+          "name": "招牌杨枝甘露",
+          "price": 18.0,
+          "monthly_sales": 350,
+          "tags": [
+            "招牌"
+          ],
+          "desc": "芒果、西柚、椰浆、西米。"
+        },
+        {
+          "name": "桃胶雪燕炖奶",
+          "price": 22.0,
+          "monthly_sales": 260,
+          "tags": [
+            "炖品"
+          ],
+          "desc": "桃胶雪燕配鲜奶，可选热饮。"
+        },
+        {
+          "name": "红豆双皮奶",
+          "price": 14.0,
+          "monthly_sales": 300,
+          "tags": [
+            "经典"
+          ],
+          "desc": "顺德双皮奶配蜜红豆。"
+        },
+        {
+          "name": "黑芝麻糊汤圆",
+          "price": 15.0,
+          "monthly_sales": 210,
+          "tags": [
+            "热饮"
+          ],
+          "desc": "现磨黑芝麻糊配汤圆。"
+        },
+        {
+          "name": "芒果班戟（2枚）",
+          "price": 16.0,
+          "monthly_sales": 180,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "奶油芒果班戟两枚。"
+        },
+        {
+          "name": "桂花酒酿小圆子",
+          "price": 12.0,
+          "monthly_sales": 220,
+          "tags": [
+            "时令"
+          ],
+          "desc": "桂花酒酿配糯米小圆子。"
+        },
+        {
+          "name": "焦糖布丁",
+          "price": 10.0,
+          "monthly_sales": 190,
+          "tags": [
+            "甜品"
+          ],
+          "desc": "焦糖布丁一份。"
+        },
+        {
+          "name": "椰汁紫米露",
+          "price": 13.0,
+          "monthly_sales": 170,
+          "tags": [
+            "经典"
+          ],
+          "desc": "椰汁紫米露，冷热可选。"
+        }
+      ]
+    }
+  ],
+  "cart_default": {
+    "currency_symbol": "¥",
+    "total": 0.0,
+    "quantity": 0,
+    "checkout_text": "去结算",
+    "cart_text": "合计"
+  }
+}

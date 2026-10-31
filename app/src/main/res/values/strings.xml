@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">校园外卖</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_order_food">点餐</string>
+    <string name="tab_orders">订单</string>
+    <string name="tab_profile">我的</string>
+
+    <!-- 通用 -->
+    <string name="currency_symbol">¥</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- 空状态 -->
+    <string name="empty_orders_title">还没有订单哦</string>
+    <string name="empty_orders_hint">去点餐看看有什么好吃的吧～</string>
+    <string name="empty_search_title">没有找到相关商家</string>
+    <string name="empty_search_hint">换个关键词或分类试试</string>
+
+    <!-- 订单状态 -->
+    <string name="order_status_pending">待接单</string>
+    <string name="order_status_accepted">商家备餐中</string>
+    <string name="order_status_delivering">骑手配送中</string>
+    <string name="order_status_delivered">已送达</string>
+    <string name="order_status_cancelled">已取消</string>
+
+    <!-- 订单操作 -->
+    <string name="action_cancel_order">取消订单</string>
+    <string name="action_reorder">再来一单</string>
+    <string name="action_rate">评价得红包</string>
+    <string name="action_delete_order">删除订单</string>
+    <string name="action_contact_rider">联系骑手</string>
+</resources>

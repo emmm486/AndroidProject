@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- 整个 App 的配色都是浅色设计，这里固定为 Light 主题，避免跟随系统深色模式导致色差 -->
+    <style name="Base.Theme.Application1" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_orange</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Application1" parent="Base.Theme.Application1" />
+</resources>

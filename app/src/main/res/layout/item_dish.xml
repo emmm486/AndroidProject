@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/ivDishImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_card" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <!-- 第一行：菜名 + 标签 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvDishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="菜品名称"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <!-- 标签文本，如：[招牌] [热卖] -->
+            <TextView
+                android:id="@+id/tvDishTags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="[招牌]"
+                android:textSize="11sp"
+                android:textColor="#FF5722" />
+        </LinearLayout>
+
+        <!-- 第二行：描述 -->
+        <TextView
+            android:id="@+id/tvDishDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="鸡腿肉焖制，配香菇、土豆..."
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <!-- 第三行：月售 -->
+        <TextView
+            android:id="@+id/tvDishSales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="月售 860"
+            android:textSize="12sp"
+            android:textColor="#999999" />
+
+        <!-- 第四行：价格 -->
+        <TextView
+            android:id="@+id/tvDishPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="¥ 18.8"
+            android:textSize="15sp"
+            android:textColor="#FF5722"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- 数量控制：减号 + 数量 + 加号 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/btnMinus"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:text="－"
+            android:textSize="18sp"
+            android:textColor="#FF5722"
+            android:background="#FFFFFF"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btnAdd"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="＋"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="#FF5722" />
+    </LinearLayout>
+
+</LinearLayout>
